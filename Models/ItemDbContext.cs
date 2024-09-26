@@ -6,6 +6,7 @@ public class ItemDbContext : DbContext
 {
 	public ItemDbContext(DbContextOptions<ItemDbContext> options) : base(options)
 	{
+		
         Database.EnsureCreated();
 	}
 
