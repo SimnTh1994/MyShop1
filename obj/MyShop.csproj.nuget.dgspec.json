@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop\\MyShop\\MyShop.csproj": {}
+    "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop1\\MyShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop\\MyShop\\MyShop.csproj": {
+    "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop1\\MyShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop\\MyShop\\MyShop.csproj",
+        "projectUniqueName": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop1\\MyShop.csproj",
         "projectName": "MyShop",
-        "projectPath": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop\\MyShop\\MyShop.csproj",
+        "projectPath": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop1\\MyShop.csproj",
         "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop\\MyShop\\obj\\",
+        "outputPath": "C:\\Users\\Bruker\\Documents\\Informasjonsteknologi\\Webapplikasjoner\\MyShop1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.8, )"
