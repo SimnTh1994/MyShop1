@@ -10,14 +10,18 @@ using MyShop.DAL;
 namespace MyShop.Migrations
 {
     [DbContext(typeof(ItemDbContext))]
-    [Migration("20240930115329_ShopDbExpanded")]
-    partial class ShopDbExpanded
+    [Migration("20241007171150_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
+            modelBuilder
+                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true);
 
             modelBuilder.Entity("MyShop.Models.Customer", b =>
                 {

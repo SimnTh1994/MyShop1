@@ -465,3 +465,6 @@ C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\obj\Deb
 C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\obj\Debug\net8.0\ref\MyShop.dll
 C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\bin\Debug\net8.0\Serilog.dll
+C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1\bin\Debug\net8.0\Serilog.Sinks.File.dll

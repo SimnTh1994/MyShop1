@@ -1,0 +1,14 @@
+2024-10-09 15:51:29.485 +02:00 [INF] User profile is available. Using 'C:\Users\Bruker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-09 15:51:29.664 +02:00 [INF] Now listening on: https://localhost:7132
+2024-10-09 15:51:29.667 +02:00 [INF] Now listening on: http://localhost:5017
+2024-10-09 15:51:29.677 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 15:51:29.680 +02:00 [INF] Hosting environment: Development
+2024-10-09 15:51:29.684 +02:00 [INF] Content root path: C:\Users\Bruker\Documents\Informasjonsteknologi\Webapplikasjoner\MyShop1
+2024-10-09 15:51:29.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+2024-10-09 15:51:30.013 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-09 15:51:30.026 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-09 15:51:30.035 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-09 15:51:30.138 +02:00 [INF] Executed ViewResult - view Index executed in 103.1664ms.
+2024-10-09 15:51:30.143 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 116.713ms
+2024-10-09 15:51:30.143 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-09 15:51:30.148 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 200 null text/html; charset=utf-8 187.3218ms
